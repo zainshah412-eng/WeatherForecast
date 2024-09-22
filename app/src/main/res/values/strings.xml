@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="no_internet">No Internet Available</string>
+    <string name="alert_description">Alert</string>
+    <string name="dash">-</string>
+    <string name="alert_text">Alert</string>
+    <string name="ok_text">OK</string>
+
+    <string name="connection_time_out" translatable="false">Connection Time out</string>
+    <string name="error_msg">Empty or invalid string</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!-- Login  -->
+    <string name="email">Email</string>
+    <string name="incorrect_email">Your email is incorrect</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_your_string">Enter your word</string>
+    <string name="search_text">Search</string>
+    <string name="submit_text">Submit</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_comments">Enter comments</string>
+    <string name="incorrect_password">Password cannot be less than 6 characters</string>
+    <string name="empty_comment">Comments cannot be empty</string>
+    <string name="login_text">Log in</string>
+    <string name="logo_text">Let\'s start with Logging in!</string>
+
+    <!-- Home Fragment  -->
+    <string name="view_all">View all</string>
+
+
+    <string name="search">"Search "</string>
+    <string name="no_search_found">No Search Found</string>
+    <string name="try_adjusting_your_filters">Search using a proper reference</string>
+    <string name="title_activity_splash">SplashAct</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home">Home</string>
+    <string name="pending">Pending</string>
+    <string name="delivered">Delivered Orders</string>
+    <string name="profile">Profile</string>
+    <string name="dashbord">Dashbord</string>
+    <string name="in_process">In Process</string>
+    <string name="onway">On Way</string>
+    <string name="cancel_orders">Cancel Orders</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="logout">Logout</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="empty_email">Email cannot be empty</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_pending_order">No Pending Order</string>
+    <string name="orders_list">Orders List</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="new_orders">New Orders</string>
+    <string name="accept">Accept</string>
+    <string name="rejects">Rejects</string>
+    <string name="show_more">Show more...</string>
+    <string name="mark">Mark Delivered</string>
+    <string name="delivery_charge" translatable="false">Delivery Charges:</string>
+    <string name="payment_type">Payment Type: </string>
+    <string name="order_detail">Order Detail:</string>
+    <string name="call">Call</string>
+    <string name="tip_for_driver">Tip for driver:</string>
+    <string name="discount">Discount:</string>
+    <string name="price">Price:</string>
+    <string name="sub_total">Sub Total:</string>
+    <string name="no_order_available">No ESR Available</string>
+    <string name="passport_number">XXXXXXXXX</string>
+    <string name="is_this_your_phone_number">Is this your\n phone number?</string>
+    <string name="phone_number">Phone number</string>
+    <string name="first_name_text">First name</string>
+    <string name="last_name_text">Last name</string>
+    <string name="incorrect_first_name">First name cannot be less then 3 character</string>
+    <string name="incorrect_last_name">Last name cannot be less then 3 character</string>
+    <string name="first_name">e.g. John</string>
+    <string name="last_name">e.g. Smith</string>
+    <string name="phone_alert">Phone number can\'t be empty</string>
+    <string name="login_trouble_text">Having trouble logging in?</string>
+    <string name="reset_password">Password reset</string>
+    <string name="reset_password_msg">Enter your password below to reset your password.</string>
+    <string name="cannot_find_email">We cannot find user with this email</string>
+    <string name="reset_password_button_text">Reset password</string>
+    <string name="save">Save</string>
+    <string name="update_password">Update Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="register_here">Register Here</string>
+    <string name="report_on_the_go">Report on the Go</string>
+    <string name="observation">Observations</string>
+    <string name="esr">ESR</string>
+    <string name="equipment_service_report">Equipment Service Report</string>
+    <string name="create_observation">Create Service Report</string>
+    <string name="view_observation">View\nESR</string>
+    <string name="view_draft">View\nDraft</string>
+    <string name="pending_actions">Pending\nAction</string>
+    <string name="plateforms_llc">PLATFORMS LLC</string>
+    <string name="the_customer_agrees_that_service_has_been_performed_breal_down_has_attended_problem_has_been_solved_and_machine_is_now_working_fine">The Customer agrees that service has been performed/ breal down has attended problem has been solved and machine is now working fine.</string>
+    <string name="register">Register</string>
+    <string name="create_and_account">Create an Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="company_Name">Company Name</string>
+    <string name="site_contact_number">Site Contact Number</string>
+    <string name="site_name">Site Name</string>
+    <string name="site_contact_name">Site Contact Name</string>
+    <string name="location">Emrates</string>
+    <string name="technician_name">Technician Name</string>
+    <string name="unit_description">Unit Description</string>
+    <string name="machine_model">Machine Model</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="hour_meter">Hour Meter</string>
+    <string name="warranty">Warranty</string>
+    <string name="date">Date</string>
+    <string name="reported_time">Reported Time</string>
+    <string name="completion_time">Completion Time</string>
+    <string name="routine_type">Routine Type</string>
+    <string name="service_type">Service Type</string>
+    <string name="damage">Damage</string>
+    <string name="breakdown">Breakdown</string>
+    <string name="operator_error">operator Error</string>
+    <string name="incorrect_usage">Incorrect Usage</string>
+    <string name="action_taken">Action Taken</string>
+    <string name="parts_issued_amp_travelling_hours_details"><![CDATA[Parts Issued & Travelling Hours Details]]></string>
+    <string name="upload_images">Upload Images</string>
+    <string name="description">Description</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="choose_from_photos">Choose from photos</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="sign_here_to_confirm_your_booking">Sign here to confirm</string>
+    <string name="save_draft">Save as Draft</string>
+    <string name="submit">Submit</string>
+    <string name="view_report">View Report</string>
+    <string name="fault_reported">Fault Reported</string>
+    <string name="select_from_list">Select From List</string>
+    <string name="search_label">City Name\n</string>
+    <string name="search_hint">City Name</string>
+    <string name="enter_aleast_4_digits">Enter least 4 characters</string>
+</resources>

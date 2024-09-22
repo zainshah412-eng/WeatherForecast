@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_store"/>
+<!--    <item-->
+<!--        android:id="@+id/viewDraftFragment"-->
+<!--        android:title="@string/in_process"-->
+<!--        android:icon="@drawable/ic_baseline_beenhere_24"/>-->
+<!--    <item-->
+<!--        android:id="@+id/onWayFragment"-->
+<!--        android:title="@string/onway"-->
+<!--        android:icon="@drawable/ic_baseline_departure_board_detail_24"/>-->
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+
+</menu>

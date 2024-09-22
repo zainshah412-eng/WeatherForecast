@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.weather.core.ui.prespentation_layer.fragments.CurrentWeatherFragment"
+        android:label="@string/plateforms_llc"
+        tools:layout="@layout/fragment_current">
+
+        <action
+            android:id="@+id/action_homeFragment_to_createObservationFragment"
+            app:destination="@id/createObservationFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/createObservationFragment"
+        android:name="com.example.weather.core.ui.prespentation_layer.fragments.ForecastWeatherFragment"
+        android:label="Create Esr"
+        tools:layout="@layout/fragment_forecast" >
+
+
+    </fragment>
+</navigation>

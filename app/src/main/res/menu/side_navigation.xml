@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/nav_open_account_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_store"/>
+    </group>
+    <group android:id="@+id/nav_open_delivered_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewDraftFragment"
+            android:title="@string/in_process"
+            android:icon="@drawable/ic_baseline_beenhere_24"/>
+    </group>
+    <group android:id="@+id/nav_open_pending_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/onWayFragment"
+            android:title="@string/onway"
+            android:icon="@drawable/ic_baseline_departure_board_detail_24"/>
+    </group>
+
+    <group android:id="@+id/nav_open_accepted_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/cancelOrdersFragment"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_cancel_24"
+            app:showAsAction="ifRoom"
+            android:title="Cancel Orders" />
+    </group>
+
+    <group android:id="@+id/nav_open_logout_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profileFragment"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_baseline_person_24"/>
+    </group>
+
+</menu>

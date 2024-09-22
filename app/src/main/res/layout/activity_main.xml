@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".core.ui.prespentation_layer.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        style="@style/toolbarBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/firstNameEditText"
+            style="@style/customEditTextfontstyle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxStrokeWidth="@dimen/_1sdp"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searchBar"
+                style="@style/customEditTextfontstyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:drawablePadding="@dimen/_10sdp"
+                android:focusable="true"
+                android:fontFamily="@font/objective_regular"
+                android:hint="@string/search_hint"
+                android:imeActionLabel="Done"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="14"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_40sdp"
+                android:textCursorDrawable="@null"
+                android:theme="@style/customEditTextfontstyle11" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_17sdp"
+            android:src="@drawable/ic_back_arrow_disable" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:text="@string/search_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvDone"
+            style="@style/customfontstyle7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:fontFamily="@font/objective_bold"
+            android:text="@string/search"
+            android:textSize="@dimen/_12ssp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tabsGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBar">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            style="@style/tabStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentTop="true"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="1.5dp"
+            app:tabMode="fixed" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabs"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/topBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

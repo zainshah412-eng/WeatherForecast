@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.weather.core.ui.prespentation_layer.fragments.CurrentWeatherFragment">
+
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="Weather Icon" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:text="24°C"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/weatherDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Clear Sky"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:text="Humidity: 65%" />
+
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:text="Wind Speed: 3 m/s" />
+
+</LinearLayout>
